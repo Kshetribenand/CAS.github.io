@@ -1,0 +1,46 @@
+
+
+
+	
+
+.circle1{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	border: 5px solid white;
+	align-items: center;
+	padding: 20px;
+	margin: 60px;
+
+}
+.circle2{
+	right: 50px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-color: black;
+	border: 5px solid white;
+	align-items: center;
+
+}
+text{
+	size: 50px;
+}
+body {
+  background-color: #333;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 35px;
+  position: relative;
+  left: 500px; 
+  top: 120px;
+  }
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #FF9800;
+}

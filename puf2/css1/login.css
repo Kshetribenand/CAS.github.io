@@ -1,0 +1,104 @@
+
+
+.register{
+    background: -webkit-linear-gradient(left, #2d3436, #b2bec3);
+    
+    padding: 3%;
+    padding-bottom: 15%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: left;
+   margin: 15px 0 25px 0;
+   margin-left: 210px;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 5px;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 100;
+    width: 40%;
+    cursor: pointer;
+}
+.btnRegister-new{
+    float: left;
+   margin: 40px 0 25px 0;
+   margin-left: 100px;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 5px;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 100;
+    width: 40%;
+    cursor: pointer;
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+.cus-1{
+    position: relative;
+    width: 60%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+.cus-2{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.cus-3{
+    flex: 0 0 75%;
+    max-width: 75%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.cus-4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}

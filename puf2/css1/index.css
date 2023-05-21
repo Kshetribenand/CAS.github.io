@@ -1,0 +1,28 @@
+.score{
+	width: 150px;
+	height: 100px;
+	position: absolute;
+	top: 100px;
+	right: 20px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+table{
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+.about{
+	padding: 10px;
+	color: white;
+	width: 41%;
+	margin-top: -80px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.b_cas{
+	padding: 20px;
+}
+.p_cas{
+	padding: 11px 27px;
+}

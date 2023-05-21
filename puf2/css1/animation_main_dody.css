@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 100vh;
+	
+	background-color: #102b31c2;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.menu
+{
+	position: relative;
+	width: 100px;
+	height: 130px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 240px;
+}
+.menu .toggle{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	background: white;
+	color: black;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3em;
+	cursor: pointer;
+	transition: 0.7s;
+}
+.menu .toggle.active{
+	transform: rotate(315deg);
+	box-shadow: 0 0 0 68px white;
+	background: black;
+	color: white;
+}
+.menu li{
+	position: absolute;
+	
+	right: 140px;
+	list-style: none;
+	transform: rotate(calc(360deg / 8 * var(--i))) translateX(40px);
+	transform-origin: 140px;
+	visibility: hidden;
+	opacity: 0;
+	transform: 0.5s;
+	z-index: 10px;
+}
+.menu.active li{
+	visibility: visible;
+	opacity: 1;
+}.menu li a{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 55px;
+	height: 55px;
+	font-size: 1.75em;
+	color: black;
+	transform: rotate(calc(360deg / -8 * var(--i)));
+	border-radius: 50%;
+}
+.menu.active li.active{
+	transform: rotate(calc(360deg / 8 * var(--i))) translateX(12px);
+
+}
+.sign{
+	position: absolute;
+	top: -27.5px;
+	left: 72px;
+	width: 55px;
+	height: 55px;
+	background: black;
+	box-shadow: 0 0 0 6px blue;
+	border-radius: 55px;
+	transition: 0.5s;
+	opacity: 0;
+
+}
+.menu.active .sign::before
+{
+	opacity: 1;
+	top: -27.5px;
+	left: -27.5px;
+	background: blue;
+	box-shadow: 0 0 0 6px black;
+
+}
+.menu li:nth-child(2).active ~ .sign{
+
+	transform: translateX(-103px) rotate(0deg);
+}
